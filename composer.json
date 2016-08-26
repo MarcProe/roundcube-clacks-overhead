@@ -1,0 +1,36 @@
+{
+    "name": "mporcheron/clacks-overhead",
+    "type": "roundcube-plugin",
+    "description": "Plugin to append outgoing mail from Roundcube with the header X-Clacks-Overhead: GNU Terry Pratchett",
+    "keywords": [
+        "gnu",
+        "terry pratchett",
+        "clacks",
+        "clacks overhead"
+        "X-Clacks-Overhead: GNU Terry Pratchett"
+    ],
+    "homepage": "https://github.com/mporcheron/roundcube-clacks-overhead",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Porcheron",
+            "email": "martin@porcheron.uk",
+            "homepage": "https://www.porcheron.uk",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "support": {
+        "email": "martin@porcheron.uk",
+        "issues": "https://github.com/mporcheron/roundcube-clacks-overhead/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}
