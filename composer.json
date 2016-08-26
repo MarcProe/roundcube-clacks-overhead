@@ -6,8 +6,7 @@
         "gnu",
         "terry pratchett",
         "clacks",
-        "clacks overhead",
-        "X-Clacks-Overhead: GNU Terry Pratchett"
+        "clacks overhead"
     ],
     "homepage": "https://github.com/mporcheron/roundcube-clacks-overhead",
     "license": "MIT",
