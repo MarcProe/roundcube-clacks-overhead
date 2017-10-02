@@ -1,10 +1,9 @@
-# roundcube-clacks-overhead
+# roundcube-send-on-behalf-of
 
-Roundcube plugin that adds the `X-Clacks-Overhead: GNU Terry Pratchett` header 
-to all outgoing mail sent via Roundcube. Once enabled, this plugin needs no 
-configuration.
+Roundcube plugin that adds the "Sender" header 
+to all outgoing mail sent via Roundcube, if the currently used identity is not the primary identity.
+It is primarily used to allow Exchange Users to send as distribution lists.
 
-See [GNU Terry Pratchett](http://www.gnuterrypratchett.com/) for more plugins 
-for other software as well as background information to this plugin.
+Forked from https://github.com/mporcheron/roundcube-clacks-overhead
 
 

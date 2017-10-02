@@ -1,20 +1,21 @@
 {
-    "name": "mporcheron/clacks-overhead",
+    "name": "marcproe/roundcube-send-on-behalf-of",
     "type": "roundcube-plugin",
-    "description": "Plugin to append outgoing mail from Roundcube with the header X-Clacks-Overhead: GNU Terry Pratchett",
+    "description": "Plugin to append outgoing mail from Roundcube with the Sender header if it is not using the default identity.",
     "keywords": [
-        "gnu",
-        "terry pratchett",
-        "clacks",
-        "clacks overhead"
+        "exchange",
+        "sender",
+        "send on behalf of",
+        "behalf",
+        "send as"
     ],
-    "homepage": "https://github.com/mporcheron/roundcube-clacks-overhead",
-    "license": "MIT",
+    "homepage": "https://github.com/MarcProe/roundcube-send-on-behalf-of",
+    "license": "MIT",    
     "authors": [
         {
-            "name": "Martin Porcheron",
-            "email": "martin@porcheron.uk",
-            "homepage": "https://www.porcheron.uk",
+            "name": "Marcus Proest",
+            "email": "marcus@proest.net",
+            "homepage": "https://github.com/MarcProe/roundcube-send-on-behalf-of",
             "role": "Developer"
         }
     ],
@@ -25,8 +26,8 @@
         }
     ],
     "support": {
-        "email": "martin@porcheron.uk",
-        "issues": "https://github.com/mporcheron/roundcube-clacks-overhead/issues"
+        "email": "marcus@proest.net",
+        "issues": "https://github.com/MarcProe/roundcube-send-on-behalf-of/issues"
     },
     "require": {
         "php": ">=5.3.0",
